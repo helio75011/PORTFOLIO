@@ -2,13 +2,13 @@ const express = require('express');
 const router = express.Router()
 const Model = require('../models/model');
 
-router.post('/post', (req, res) => {
+router.post('/post', async (req, res) => {
     const data = new Model({
         name: req.body.name,
         age: req.body.age
     })
     try {
-        const dataToSave = data.save();
+        const dataToSave = await data.save();
         res.status(200).json(dataToSave)
     } catch(error) {
         res.status(400).json({message: error.message})
