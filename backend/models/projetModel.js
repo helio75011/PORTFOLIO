@@ -10,7 +10,7 @@ const projetSchema = new mongoose.Schema({
         required: true
     },
     technologies: [String],
-    image: String, // URL de l'image du projet
+    image: String,
     lienGitHub: String,
     lienDemo: String,
     dateCreation: {
