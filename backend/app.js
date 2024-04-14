@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json()); // Utilisation de express.json() au lieu de bodyParser.json()
 
 // Connexion à MongoDB
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect('mongodb+srv://heliochomel:12345@portfolio.n4xvs7v.mongodb.net/?retryWrites=true&w=majority&appName=PORTFOLIO')
   .then(() => console.log("Connected successfully to MongoDB"))
   .catch(err => console.error('Could not connect to MongoDB:', err));
 
