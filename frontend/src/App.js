@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Infos from "./components/Section/Infos";
 import Project from "./components/Section/Project";
 import Section from "./components/Section/Section";
+import Company from "./components/Section/Company";
 import './index.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Header></Header>
     <Infos></Infos>
     <Project></Project>
+    <Company></Company>
     <Section></Section>
     <Footer></Footer>
 </div>
