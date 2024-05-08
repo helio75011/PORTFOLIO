@@ -1,0 +1,109 @@
+.articlesContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .articlesHeader  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articlesHeader h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .articlesHeader p {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 2rem;
+  }
+  
+  .articlesContent {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    width: 100%;
+  }
+  
+  .discoverBlock {
+    background: #fff;
+    flex-basis: 30%;
+    padding: 20px;
+    /* border: solid 1px lightgray; */
+    border-radius: 15px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articlesList {
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-basis: 70%;
+    gap: 20px;
+  }
+  
+  .articleItem {
+    flex-basis: calc(33.333% - 20px); /* adjust for 3 items with gap */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articleImage {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .articleTag-parent {}
+
+  .articleTag {
+    /* background-color: #f0f0f0; */
+    border: 0.5px solid black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .articleTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .articleAuthor,
+  .articleDate {
+    font-size: 0.9rem;
+    color: grey;
+  }
+  
+  .navigationButtons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .prevButton,
+  .nextButton {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .logo-article {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    margin-right: 10px;
+  }
