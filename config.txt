@@ -69,3 +69,11 @@ git push origin develop
 
 #lien du figma
 https://www.figma.com/file/L820zu1uKKlOE2FNMQbUHi/Birthday-1st-screen-only?type=design&node-id=0-1&mode=design&t=FDBXC5KeaUXXIEFk-0
+
+--------------------------------------------------
+# heroku
+
+après modifications du dossier backend
+
+cd ../
+git subtree push --prefix backend heroku main
