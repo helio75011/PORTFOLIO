@@ -11,7 +11,7 @@ const Project = () => {
   const [TwoProjects, setTwoProjects] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/projects')
+    axios.get('https://portfolio-hdb-8d0a629a26db.herokuapp.com/projects')
       .then(response => {
         setProjects(response.data);
       })
@@ -19,7 +19,7 @@ const Project = () => {
   }, []);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/twoProjects')
+    axios.get('https://portfolio-hdb-8d0a629a26db.herokuapp.com/twoProjects')
       .then(response => {
         setTwoProjects(response.data);
       })
