@@ -1,7 +1,7 @@
 // SupportSection.js
 import React from 'react';
 import './Set.css'; // Import the CSS file for styling
-import WC from './uploads/women-computer.png'
+import Me from './uploads/me.png'
 
 const Set = () => {
   return (
@@ -19,7 +19,7 @@ const Set = () => {
       </div>
       <div className="support-image">
         {/* Replace 'path-to-your-image.jpg' with the actual path to your image */}
-        <img src={WC} alt="Support" />
+        <img src={Me} alt="Support" className='image-set' />
       </div>
     </section>
   );

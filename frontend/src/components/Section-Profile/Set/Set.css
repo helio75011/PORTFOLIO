@@ -1,7 +1,7 @@
 /* Set.css */
 .support-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     /* background-color: #F8F4F2; Replace with the actual background color */
@@ -9,18 +9,20 @@
   }
   
   .support-content {
-    flex: 1;
+    /* flex: 1; */
     max-width: 50%;
   }
   
   .support-image {
-    flex: 1;
+    /* flex: 1; */
     max-width: 50%;
   }
   
   .support-image img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    border-radius: 50px;
+    margin: auto;
   }
   
   h2 {
