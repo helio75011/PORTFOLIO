@@ -7,13 +7,12 @@ const Set = () => {
   return (
     <section className="support-section">
       <div className="support-content">
-        <h2>Ensemble, pas seuls</h2>
-        <p className="support-title">Trouvez du soutien sur notre plateforme</p>
+        <h2>Hélio de Breyne</h2>
+        <p className="support-title">Je suis <b>Développeur Web</b> et Concepteur <b>d'Application Mobile</b></p>
         <p className="support-text">
-          Commencez par remplir notre questionnaire simple mais significatif.
-          Ce questionnaire nous permet de comprendre votre situation sociale
-          et émotionnelle actuelle, ainsi que les éventuelles causes de votre
-          isolement.
+          Passionné par les technologies, je suis <b>développeur web</b> et concepteur <b>d'applications mobiles</b> en Bachelor. 
+          Fort de mes compétences en <b>React</b>, <b>React Native</b>, <b>Next</b> et <b>NodeJs</b>, je transforme vos idées en solutions innovantes. 
+          Confiez-moi vos projets pour un résultat professionnel et impactant.
         </p>
         <button className="start-button">Commencer</button>
       </div>

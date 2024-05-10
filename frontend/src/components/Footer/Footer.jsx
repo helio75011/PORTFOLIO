@@ -9,10 +9,10 @@ const Footer = () => {
     <footer className="footerContainer">
       <div className="footerContent">
         <div className="aboutSection">
-          <h4>Soutien Plus</h4>
+          <h4>Hélio de Breyne</h4>
           <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
         </div>
-        <div className="linksSection">
+        {/* <div className="linksSection">
           <h4>Heading</h4>
           <a href="#">Link here</a>
           <a href="#">Link here</a>
@@ -29,7 +29,7 @@ const Footer = () => {
           <a href="#">Link here</a>
           <a href="#">Link here</a>
           <a href="#">Link here</a>
-        </div>
+        </div> */}
         <div className="socialMediaSection">
           <h4>Restez connecté</h4>
           <div className="socialIcons">
@@ -39,6 +39,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p>tous les droits réservé</p>
     </footer>
   );
 };
