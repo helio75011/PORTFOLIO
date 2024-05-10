@@ -5,7 +5,7 @@ import Set from "./components/Section-Profile/Set/Set";
 import Articles from "./components/Section-Profile/Article/Article";
 // import Infos from "./components/Section/Infos";
 import Project from "./components/Section/Project";
-import Section from "./components/Section/Section";
+import Section from "./components/Section-Profile/Work/Section";
 import Company from "./components/Section/Company";
 import Contact from "./components/Section-Profile/Contact/Contact";
 import './index.css'

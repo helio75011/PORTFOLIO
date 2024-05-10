@@ -9,13 +9,13 @@ const Contact = () => {
         <div className="contactInfo">
           <img src={Talk} />
           <p className="contactDescription">
-            Vous avez des questions, des suggestions ou simplement envie de nous faire part de votre expérience ? N'hésitez pas à nous contacter !
+            Vous avez des questions, des suggestions ou simplement envie de me faire part d'une éventuelle collaboration ? N'hésitez pas à me contacter !
           </p>
         </div>
         <div className="contactFormWrapper">
           <div className="contactForm">
             <h2>Formulaire de contact</h2>
-            <p className='NFAQ'>Notre FAQ</p>
+            <p className='NFAQ'>Une Question ?</p>
             <form>
               <label htmlFor="firstName">Prenom *</label>
               <input type="text" id="firstName" name="firstName" required />

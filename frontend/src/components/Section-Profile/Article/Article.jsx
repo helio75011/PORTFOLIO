@@ -23,40 +23,40 @@ const Articles = () => {
 
         <div className="articlesList">
           {/* Repeat this block for each article */}
-          <div className="articleItem">
+          <div className="articleItem bg-blue-500 bg-opacity-10">
             <img src={Ebeniste} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
             </div> */}
-            <h4 className="articleTitle">10 Stratégies Simples pour Gérer l'Anxiété au Quotidien</h4>
-            <p className="articleAuthor">Merlie-Claire Gustav</p>
+            <h4 className="articleTitle">CAP ébénisterie</h4>
+            <p className="articleAuthor">Lycée Germaine Poinso Chapuis | Marseille</p>
             <div className='logo-article'>
               <img src={Poinso} className='logo-img' />
-              <p className="articleDate">2 avril 2024</p>
+              <p className="articleDate">2016 / 2018</p>
             </div>
           </div>
-          <div className="articleItem">
+          <div className="articleItem bg-blue-500 bg-opacity-10">
             <img src={Dev} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
             </div> */}
-            <h4 className="articleTitle">10 Stratégies Simples pour Gérer l'Anxiété au Quotidien</h4>
-            <p className="articleAuthor">Merlie-Claire Gustav</p>
+            <h4 className="articleTitle">BTS Développeur Web et Web Mobile</h4>
+            <p className="articleAuthor">Webforce 3 | Paris</p>
             <div className='logo-article'>
               <img src={Webforce} className='logo-img' />
-              <p className="articleDate">2 avril 2024</p>
+              <p className="articleDate">2022 / 2023</p>
             </div>
           </div>
-          <div className="articleItem">
+          <div className="articleItem bg-blue-500 bg-opacity-10">
             <img src={Fullstack} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
             </div> */}
-            <h4 className="articleTitle">10 Stratégies Simples pour Gérer l'Anxiété au Quotidien</h4>
-            <p className="articleAuthor">Merlie-Claire Gustav</p>
+            <h4 className="articleTitle">Bachelor Développeur et Concepteur d'application</h4>
+            <p className="articleAuthor">MyDigitalSchool | Paris</p>
             <div className='logo-article'>
               <img src={MDSchool} className='logo-img' />
-              <p className="articleDate">2 avril 2024</p>
+              <p className="articleDate">2023 / 2024</p>
             </div>
           </div>
           {/* ...other articles */}

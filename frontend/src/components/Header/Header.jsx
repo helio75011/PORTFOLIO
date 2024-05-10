@@ -29,10 +29,10 @@ const Header = () => {
             <a href="/faq"><b>FAQ</b></a>
             <a href="/contact"><b>Contact</b></a>
           </div>
-          <div className="nav-actions">
-            <a href="/signin" className="sign-in"><b>S'identifier</b></a>
-            <a href="/start" className="start">Commencer</a>
-          </div>
+        </div>
+        <div className="nav-actions">
+          {/* <a href="/signin" className="sign-in"><b></b></a> */}
+          <a href="/start" className="start">S'identifier</a>
         </div>
       </nav>
     </header>
