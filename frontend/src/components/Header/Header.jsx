@@ -23,9 +23,9 @@ const Header = () => {
               X
             </button>
             <a href="/about"><b>À propos</b></a>
-            <a href="/volunteer"><b>Bénévolat</b></a>
-            <a href="/advice"><b>Conseils</b></a>
-            <a href="/events"><b>Événements</b></a>
+            <a href="/volunteer"><b>Formation</b></a>
+            <a href="/advice"><b>Projets</b></a>
+            <a href="/events"><b>Textiss</b></a>
             <a href="/faq"><b>FAQ</b></a>
             <a href="/contact"><b>Contact</b></a>
           </div>
