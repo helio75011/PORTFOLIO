@@ -18,7 +18,11 @@ const Articles = () => {
       <div className="articlesContent">
         <div className="discoverBlock">
           <h3><b>Découvrez</b></h3>
-          <p>Découvrez une riche sélection d'articles et de conseils élaborés par des professionnels de la santé mentale, conçus pour vous guider dans votre voyage vers le bien-être mental. De la gestion du stress à l'amélioration de l'estime de soi, notre plateforme offre un soutien précieux.</p>
+          <p>
+            Après mon CAP ébéniste en 2018 puis un BTS dans le digital en 2020, j'ai pris 2 ans de pause, travaillant comme magasinier, cuisinier chez KFC, puis serveur. 
+            J'ai ensuite été assistant décorateur au cinéma. 
+            En 2022, je me suis reconverti avec succès au développement web, combinant ma passion pour la technologie et ma créativité, pour une carrière enrichissante et innovante.
+          </p>
         </div>
 
         <div className="articlesList">
