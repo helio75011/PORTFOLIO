@@ -87,7 +87,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%; /* Pleine largeur en mobile */
-    margin-left: 60px;
+    margin-left: 0;
   }
   
   .sidebar a {
@@ -134,6 +134,7 @@
       width: auto;
       left: auto;
       transition: none;
+      justify-content: center;
     }
   
     .sidebar a {
