@@ -27,7 +27,7 @@ const Articles = () => {
 
         <div className="articlesList">
           {/* Repeat this block for each article */}
-          <div className="articleItem bg-blue-500 bg-opacity-10">
+          <div className="articleItem">
             <img src={Ebeniste} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
@@ -39,7 +39,7 @@ const Articles = () => {
               <p className="articleDate">2016 / 2018</p>
             </div>
           </div>
-          <div className="articleItem bg-blue-500 bg-opacity-10">
+          <div className="articleItem">
             <img src={Dev} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
@@ -51,7 +51,7 @@ const Articles = () => {
               <p className="articleDate">2022 / 2023</p>
             </div>
           </div>
-          <div className="articleItem bg-blue-500 bg-opacity-10">
+          <div className="articleItem">
             <img src={Fullstack} alt="Article thumbnail" className="articleImage" />
             {/* <div className='articleTag-parent'>
               <span className="articleTag">Isolement social</span>
