@@ -41,7 +41,7 @@
   }
   
   .start-button {
-    background-color: #636C8F; /* Example button color */
+    background: linear-gradient(to right, #8d3349, #2e1a1e); /* Example button color */
     color: white;
     border: none;
     padding: 15px 30px;

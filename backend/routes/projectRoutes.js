@@ -1,3 +1,5 @@
+const request = require('supertest');
+const expect = require('chai').expect;
 const express = require('express');
 const router = express.Router();
 const Project = require('../models/Project');
